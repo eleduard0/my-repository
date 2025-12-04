@@ -1,0 +1,23 @@
+.header-background{
+    width: 350px;
+    height: 180px;
+    background: #01907E;
+    background: linear-gradient(90deg, rgba(1, 144, 126, 0.63) 0%, rgba(1, 144, 126, 0.83) 50%, rgba(1, 144, 126, 1) 100%);
+    transform: rotate(18deg);
+    border-radius: 40px;
+    margin-left: -25px;
+    margin-top: -45px;
+}
+.header-icon{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 45px;
+
+    ion-img{
+        width: 50%;
+        
+    }
+}
+.lista{
+    margin-top: 230px;
+}
