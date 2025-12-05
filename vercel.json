@@ -1,7 +1,10 @@
 {
   "version": 2,
   "builds": [
-    { "src": "src/index.html", "use": "@vercel/static-build" }
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build"
+    }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/" }
@@ -9,4 +12,5 @@
   "buildCommand": "npm run build",
   "outputDirectory": "www"
 }
+
 
