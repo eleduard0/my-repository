@@ -6,11 +6,10 @@
       "use": "@vercel/static-build"
     }
   ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "www",
   "routes": [
     { "src": "/(.*)", "dest": "/" }
-  ],
-  "buildCommand": "npm run build",
-  "outputDirectory": "www"
+  ]
 }
-
 
